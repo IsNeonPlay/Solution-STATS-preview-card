@@ -34,9 +34,9 @@ Usando el `linear-gradient` dentro del `backgound-image` y dos colores iguales c
 Another Front-end Mentor challenge solved by IsNeonPlay. This is a basic challenge to improve layouts with `flex` in containers, it was an easy challenge.
 - What made the change of the mobile and desktop version stand out was the use of:
 
-`display: flex;
+`display: flex;`
 
-  flex-direction: column;`
+ `flex-direction: column;`
 
 - And in the desktop version I only added:
 
