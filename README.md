@@ -31,7 +31,7 @@ Otro reto de Front-end Mentor solucionado por IsNeonPlay. Este es un reto básic
     `,url("../images/image-header-desktop.jpg");`
 
 
-  Usando el `linear-gradient` dentro del `backgound-image` y dos colores iguales con una transparencia de la mitad y con esto la imagen se unirá y tendrá un   color encima con una transparencia.
+Usando el `linear-gradient` dentro del `backgound-image` y dos colores iguales con una transparencia de la mitad y con esto la imagen se unirá y tendrá un   color encima con una transparencia.
 
 
 # // ENGLISH // 🇬🇧 
@@ -62,4 +62,4 @@ Another Front-end Mentor challenge solved by IsNeonPlay. This is a basic challen
     `,url("../images/image-header-desktop.jpg");`
 
 
-  Using the `linear-gradient` inside the `backgound-image` and two equal colors with a transparency of half and with this the image will be joined and have a   color on top with a transparency.
+Using the `linear-gradient` inside the `backgound-image` and two equal colors with a transparency of half and with this the image will be joined and have a color on top with a transparency.
