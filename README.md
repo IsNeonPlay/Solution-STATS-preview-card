@@ -8,7 +8,8 @@ Front-end Mentor Basic Challenge solved by IsNeonPlay
 Otro reto de Front-end Mentor solucionado por IsNeonPlay. Este es un reto básico para mejorar layouts con `flex` en contenedores, fué un reto sencillo.
 - Lo que hizo que se resaltara el cambio de la version de mobil y desktop fue el uso de: 
 
-`display: flex;`\n
+`display: flex;`
+
  `flex-direction: column;`
 
 - Y en la version de desktop únicamente agregué:
