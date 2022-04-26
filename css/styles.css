@@ -1,0 +1,107 @@
+/*************** GENERAL STYLES ***************/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+  --BG-Color: hsl(233, 47%, 7%);
+  --Card-Bg-Color: hsl(244, 38%, 16%);
+  --Title-Color: hsl(0, 0%, 100%);
+  --Soft-violet-Color: hsl(277, 64%, 61%);
+  --Paragraph-Color: hsla(0, 0%, 100%, 0.6);
+  --Font-Main-Text: 'Inter', sans-serif;
+  --Font-text-stats: 'Lexend Deca', sans-serif;
+  --Border-Card: .5em; 
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--BG-Color);
+  font-size: 15px;
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
+/*************** MAIN ***************/
+.card {
+  margin: 70px 0;
+  width: 330px;
+  height: min-content;
+  background-color: var(--Card-Bg-Color);
+  border-radius: var(--Border-Card);
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+/********* Image section *********/
+.card__picture {
+  width: 100%;
+  height: 240px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(110, 10, 160, 0.5),
+    rgba(110, 10, 160, 0.5)
+  )
+  ,url("../images/image-header-mobile.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+.card__picture:first-of-type {
+  border-radius: var(--Border-Card) var(--Border-Card) 0 0;
+}
+/********* Card Content *********/
+.card__cont {
+  padding: 0 30px;
+  font-family: var(--Font-Main-Text);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 25px;
+}
+/***** Title Content *****/
+.card__cont-title {
+  color: var(--Title-Color);
+  font-size: 24px;
+}
+.insigths {
+  color: var(--Soft-violet-Color);
+}
+/***** Paragraph Content *****/
+.card__cont-paragraph {
+  color: var(--Paragraph-Color);
+  line-height: 25px;
+}
+
+/***** Stats Content *****/
+.card__cont-stats {
+  padding-bottom: 35px;
+  font-family: var(--Font-text-stats);
+  font-size: 15px;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.stats-number {
+  padding-bottom: 5px;
+  font-weight: 500;
+  color: var(--Title-Color);
+}
+.stats-paragraph {
+  font-size: 10px;
+  font-weight: 100;
+  color: var(--Paragraph-Color);
+  letter-spacing: 1.5px;
+}
+
+/*************** FOOTER ***************/
+.attribution { 
+  color: var(--Title-Color);
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: aqua; 
+}
